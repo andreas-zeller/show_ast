@@ -1,4 +1,4 @@
-# showast
+# showast2
 [![PyPI version](https://badge.fury.io/py/showast.svg)](https://badge.fury.io/py/showast)
 [![Liberapay receiving](https://img.shields.io/liberapay/receives/hchasestevens.svg)](https://liberapay.com/hchasestevens/)
 
@@ -9,7 +9,7 @@ Example usage
 Examples can be found in [this IPython notebook](https://github.com/hchasestevens/show_ast/blob/master/Example.ipynb).
 
 ```python
-import showast
+import showast2
 ```
 
 ```python
@@ -19,7 +19,7 @@ print 1 + 2
 ![print 1 + 2 AST](http://i.imgur.com/vK3XTkX.png)
 
 ```python
-from showast import show_source
+from showast2 import show_source
 import antigravity
 show_source(antigravity)
 ```
@@ -28,10 +28,10 @@ show_source(antigravity)
 Installation
 -------------
 ```
-pip install showast
+pip install showast2
 ```
 
-showast has the following Python dependencies:
+showast2 has the following Python dependencies:
 ```
 ipython
 graphviz

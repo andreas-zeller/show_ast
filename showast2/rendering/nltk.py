@@ -7,7 +7,7 @@ import contextlib
 from functools import partial
 try:
     from Tkinter import Tk, IntVar
-except ImportError:
+except (ImportError, ModuleNotFoundError):
     from tkinter import Tk, IntVar
 
 from nltk.tree import Tree
@@ -16,8 +16,8 @@ from nltk.draw.util import CanvasFrame
 from PIL import Image, ImageChops, ImageEnhance
 from IPython.display import Image as IPImage
 
-from showast.asts import recurse_through_ast
-from showast.util.contextmanagers import suppress
+from showast2.asts import recurse_through_ast
+from showast2.util.contextmanagers import suppress
 
 
 def handle_ast(node, omit_docstrings):

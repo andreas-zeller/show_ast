@@ -12,7 +12,7 @@ except NameError:
 import graphviz
 from IPython.display import SVG
 
-from showast.asts import recurse_through_ast
+from showast2.asts import recurse_through_ast
 
 _LOCATION_ATTRS = [('lineno', 'col_offset'), ('end_lineno', 'end_col_offset')]
 

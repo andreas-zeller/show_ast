@@ -1,10 +1,10 @@
 from setuptools import setup
  
 setup(
-    name='showast',
-    packages=['showast', 'showast.rendering', 'showast.util',],
-    version='0.3.0',
-    description = 'IPython notebook plugin for visualizing abstract syntax trees.',
+    name='showast2',
+    packages=['showast2', 'showast2.rendering', 'showast2.util',],
+    version='0.3.2',
+    description = 'IPython notebook plugin for visualizing abstract syntax trees. Unofficial update for Python >= 3.12 by Andreas Zeller.',
     license='MIT',
     author='H. Chase Stevens',
     author_email='chase@chasestevens.com',
